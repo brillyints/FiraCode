@@ -8,76 +8,92 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 ### Solution
 
-#### [Download v1.204](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [News & updates](https://twitter.com/FiraCode)
+#### [Download v1.206](https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting) · [News & updates](https://twitter.com/FiraCode)
+
+<a href="https://patreon.com/tonsky" target="_blank"><img src="./fira_code_patreon.png"></a>
 
 Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
-<img src="./showcases/all_ligatures.png" />
-
+<img src="./showcases/all_ligatures.png">
 
 ### Code examples
 
 Ruby:
 
-<img src="./showcases/ruby.png" />
+<img src="./showcases/ruby.png">
 
 JavaScript:
 
-<img src="./showcases/javascript.png" />
+<img src="./showcases/javascript.png">
+
+PHP:
+
+<img src="./showcases/php.png">
 
 Erlang:
 
-<img src="./showcases/erlang.png" />
+<img src="./showcases/erlang.png">
 
 Elixir:
 
-<img src="/showcases/elixir.png" />
+<img src="/showcases/elixir.png">
 
 Go:
 
-<img src="./showcases/go.png" />
+<img src="./showcases/go.png">
 
 LiveScript:
 
-<img src="./showcases/livescript.png" />
+<img src="./showcases/livescript.png">
 
 Clojure:
 
-<img src="./showcases/clojure.png" />
+<img src="./showcases/clojure.png">
+
+Swift:
+
+<img src="./showcases/swift.png">
 
 
 ### Terminal support
 
-| Works            | Doesn’t work       |
-| ---------------- | ------------------ |
-| **Black Screen** | **Cmder**          |
-| **Butterfly**    | **ConEmu**         |
-| **Hyper.app**    | **GNOME Terminal** |
-| **Konsole**      | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) |
-| **QTerminal**    | **mate-terminal**  |
-| **Terminal.app** (OS X default terminal) | **mintty**
-| **Termux** (Android terminal emulator) | **PuTTY**
-|                  | **rxvt**           |
-|                  | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+| Works              | Doesn’t work       |
+| ------------------ | ------------------ |
+| **Butterfly**      | **Alacritty**      |
+| **Hyper.app**      | **cmd.exe**        |
+| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **Cmder** |
+| **Kitty**          | **ConEmu**         |
+| **Konsole**        | **GNOME Terminal** | 
+| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **mate-terminal** |
+| **QTerminal**      | **PuTTY**          |
+| **Terminal.app**   | **rxvt**           |
+| **Termux**         | **ZOC** (Windows)  |
+| **Token2Shell/MD** | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+| **upterm**         |
+| **ZOC** (macOS)    |
 
 ### Editor support
 
 | Works | Doesn’t work   |
 | ----- | -------------- |
-| **Anjuta** (unless at the EOF) | **Arduino IDE** |
-| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver** |
-| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656)) |
-| **BBEdit/TextWrangler** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs)) |
-| **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim** |
-| **Chocolat** | **IDLE** |
-| **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
-| **Cloud9** | **Monkey Studio IDE** |
-| **Coda 2** | **Notepad++** |
-| **CodeLite** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
-| **Eclipse** (Linux) |
+| **Abricotine** | **Arduino IDE** |
+| **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver** |
+| **Anjuta** (unless at the EOF) | **Delphi IDE** |
+| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Eclipse** (Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656)) |
+| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
+| **BBEdit/TextWrangler** (v. 11 only, [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **gVim** (Windows [workaround](https://github.com/tonsky/FiraCode/issues/462)) |
+| **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **IDLE** |
+| **Chocolat** | **KDevelop 4** |
+| **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Monkey Studio IDE** |
+| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) |  |
+| **Coda 2** |  |
+| **CodeLite** |  |
+| **Eclipse** (Mac 4.7+, Linux) |  |
+| **elementary Code** |  |
 | **Geany** |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
+| **GoormIDE** ([instructions](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
 | **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Kate, KWrite** |
 | **Komodo** |
@@ -89,8 +105,10 @@ Clojure:
 | **Mancy** |
 | **Meld** |
 | **Mousepad** |
+| **NeoVim-gtk** |
 | **NetBeans** |
 | **Notepad** (Win) |
+| **Notepad++** (with a [workaround](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/2287#issuecomment-256638098))  |
 | **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **QtCreator** |
@@ -98,20 +116,33 @@ Clojure:
 | **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 | **RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Scratch** |
+| **Scribus** (1.5.3+) |
+| **SublimeText** (3146+) |
 | **Spyder IDE** (only with Qt5) |
+| **SuperCollider 3** |
 | **TextAdept** (Linux, Mac) |
 | **TextEdit** |
 | **TextMate 2** |
 | **VimR** ([instructions](https://github.com/qvacua/vimr/wiki#ligatures)) |
 | **Visual Studio 2015** |
-| **Visual Studio 2017** |
+| **Visual Studio 2017** ([instructions](https://github.com/tonsky/FiraCode/wiki/Visual-Studio-2017-Instructions)) |
 | **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
 | **WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Xamarin Studio/Monodevelop** |
-| **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
+| **Xcode** (8.0+, otherwise [with plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 | Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
 
 ### Browser support
+
+```html
+<!-- HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
+```
+
+```css
+/* CSS */
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+```
 
 - IE 10+, Edge: enable with `font-feature-settings: "calt" 1;`
 - Firefox
@@ -128,6 +159,9 @@ Clojure:
 - [Klipse](http://app.klipse.tech/)
 - [IlyaBirman.net](http://ilyabirman.net/)
 - [EvilMartians.com](https://evilmartians.com/)
+- [Web Maker](https://webmakerapp.com/)
+- [FromScratch](https://fromscratch.rocks/)
+- [PEP20.org](https://pep20.org/)
 
 ### Alternatives
 
@@ -145,4 +179,3 @@ Other monospaced fonts with ligatures:
 - Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
 - Based on: [Fira Mono](https://github.com/mozilla/Fira)
 - Inspired by: [Hasklig](https://github.com/i-tu/Hasklig)
-- Software: [Glyphs 2](https://glyphsapp.com) (thx Georg Seifert for a license)
